@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.MainPage">
+             x:Class="MauiApp1.MainPage"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModel"
+             x:DataType="viewmodel:MainViewModel">
+    
+    <!--Buscar login-->
     
     <Grid RowDefinitions="100, Auto, *" ColumnDefinitions=".75*, .25*"
           Padding="40" RowSpacing="10" ColumnSpacing="10">
         <!--Imagen y su fondo-->
-        <Image Grid.ColumnSpan="2" Source="dotnet_bot.png" BackgroundColor="Bisque"/>
+        <Image Grid.ColumnSpan="2" Source="dotnet_bot.png"/>
         <!--Misma linea-->
-        <Entry Placeholder="Enter task" Grid.Row="1"/>
+        <Entry Placeholder="Enter task" Grid.Row="1"
+               Text="{Binding Text}"/>
 
         <Button Text="Agregar" Grid.Row="1" Grid.Column="1"/>
 
