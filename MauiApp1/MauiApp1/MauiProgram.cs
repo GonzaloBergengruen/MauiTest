@@ -22,6 +22,7 @@ namespace MauiApp1
             //Crea una copia y la mantiene
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
+            builder.Services.AddSingleton<IConnectivity>(Connectivity.Current);
 
             //Crea una copia y luego la destruye cada vez que es invocado.
             builder.Services.AddTransient<DetailPage>();
