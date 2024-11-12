@@ -19,8 +19,13 @@ namespace MauiApp1
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            //Crea una copia y la mantiene
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MainViewModel>();
+
+            //Crea una copia y luego la destruye cada vez que es invocado.
+            builder.Services.AddTransient<DetailPage>();
+            builder.Services.AddTransient<DetailViewModel>();
 
             return builder.Build();
         }
