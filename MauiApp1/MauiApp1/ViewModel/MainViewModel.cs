@@ -27,6 +27,15 @@ namespace MauiApp1.ViewModel
             Items.Add(Text);
             Text = string.Empty;
         }
+
+        [RelayCommand]
+        void Eliminar(string s)
+        {
+            if (Items.Contains(s))
+            {
+                Items.Remove(s);
+            }
+        }
     }
 
 }

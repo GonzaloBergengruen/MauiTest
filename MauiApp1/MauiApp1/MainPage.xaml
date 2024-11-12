@@ -15,24 +15,21 @@
         <Entry Placeholder="Enter task" Grid.Row="1"
                Text="{Binding Text}"/>
 
-        <Button Text="Agregar" Grid.Row="1" Grid.Column="1"/>
+        <Button Text="Agregar" Grid.Row="1" Grid.Column="1"
+                Command="{Binding AgregarCommand}"/>
 
-        <CollectionView Grid.Row="2" Grid.ColumnSpan="2">
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Items}">
 
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Manzanas</x:String>
-                    <x:String>Bananas</x:String>
-                    <x:String>Naranjas</x:String>
-                </x:Array>
-            </CollectionView.ItemsSource>
             <CollectionView.ItemTemplate>
-                <DataTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
                     <SwipeView>
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <!--Al deslizar el item este da la opcion de eliminar, probar en telefono-->
-                                <SwipeItem Text="Eliminar" BackgroundColor="Red"/> 
+                                <SwipeItem Text="Eliminar" BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=EliminarCommand}"
+                                           CommandParameter="{Binding .}"/> 
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">

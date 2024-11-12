@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-12T15:26:52.228</Modified>
+      <Modified>2024-11-12T17:28:05.049</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-12T15:01:27.169</Modified>
+      <Modified>2024-11-12T17:16:44.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
       <PackagePath>MauiApp1.runtimeconfig.json</PackagePath>
-      <Modified>2024-11-12T15:01:26.582</Modified>
+      <Modified>2024-11-12T17:16:43.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2024-11-12T15:26:50.884</Modified>
+      <Modified>2024-11-12T17:28:03.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2024-11-12T15:26:51.010</Modified>
+      <Modified>2024-11-12T17:28:03.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2024-11-12T15:01:26.346</Modified>
+      <Modified>2024-11-12T17:16:43.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -297,6 +297,10 @@
     <AppxPackagedFile Include="C:\Users\gonzalob\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-09-09T00:48:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gonzalob\.nuget\packages\communitytoolkit.mvvm\8.3.2\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-09-18T11:52:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gonzalob\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
