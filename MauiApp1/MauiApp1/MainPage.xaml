@@ -6,7 +6,7 @@
              x:DataType="viewmodel:MainViewModel"
              Title="MyTasks">
 
-    <!--Buscar login-->
+    <!--Buscar login y como usar APIs-->
     
     <Grid RowDefinitions="100, Auto, *" ColumnDefinitions=".75*, .25*"
           Padding="40" RowSpacing="10" ColumnSpacing="10">
