@@ -18,8 +18,10 @@
             try
             {
                 var clima = await _servicioClima.GetClimaAsync("Montevideo");
-                TemperaturaTexto.Text = $"Temperatura: {clima.Temperatura}°C";
-                DescripcionTexto.Text = $"Descripcion: {clima.Descripcion}";
+                TemperaturaTexto.Text = $"Temperatura: {clima.Actual.Tempe_C}°C";
+                DescripcionTexto.Text = $"Descripcion: {clima.Actual.Condicion.Texto}";
+                UbicacionTexto.Text = $"Ubicacion: {clima.Ubicacion.Nombre}, {clima.Ubicacion.Departamento}";
+                ClimaIcono.Source = new UriImageSource { Uri = new Uri("https:" + clima.Actual.Condicion.Icono) } ;
             }
             catch (Exception ex)
             {

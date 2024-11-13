@@ -7,6 +7,7 @@ namespace ClimaApi
     public class ServicioClima
     {
         private readonly HttpClient _httpClient;
+        private readonly string _apiKey = "647b49c947dc4bd885d181616241311";
 
         public ServicioClima()
         {
@@ -15,7 +16,7 @@ namespace ClimaApi
 
         public async Task<DatosClima> GetClimaAsync(String ciudad)
         {
-            var url = $"https://api.ejemplo.com/clima?ciudad={ciudad}";
+            var url = $"http://api.weatherapi.com/v1/current.json?key={{_apiKey}}&q={{ciudad}}&aqi=no\"";
             var response = await _httpClient.GetAsync(url);
 
             if (response.IsSuccessStatusCode)

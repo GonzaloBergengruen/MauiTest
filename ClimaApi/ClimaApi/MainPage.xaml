@@ -7,8 +7,10 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            <Label x:Name="UbicacionTexto" Text="Ubicacion" FontSize="24"/>
             <Label x:Name="TemperaturaTexto" Text="Temperatura" FontSize="24"/>
             <Label x:Name="DescripcionTexto" Text="Descripcion" FontSize="18"/>
+            <Image x:Name="ClimaIcono" HeightRequest="100" WidthRequest="100"/>
         </VerticalStackLayout>
     </ScrollView>
 
