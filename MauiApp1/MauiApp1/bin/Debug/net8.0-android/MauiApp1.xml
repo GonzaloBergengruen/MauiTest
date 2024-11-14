@@ -33,7 +33,7 @@
             <summary>The backing field for <see cref="P:MauiApp1.ViewModel.MainViewModel.AgregarCommand"/>.</summary>
         </member>
         <member name="P:MauiApp1.ViewModel.MainViewModel.AgregarCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MauiApp1.ViewModel.MainViewModel.Agregar"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp1.ViewModel.MainViewModel.Agregar"/>.</summary>
         </member>
         <member name="F:MauiApp1.ViewModel.MainViewModel.eliminarCommand">
             <summary>The backing field for <see cref="P:MauiApp1.ViewModel.MainViewModel.EliminarCommand"/>.</summary>

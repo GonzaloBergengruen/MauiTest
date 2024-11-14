@@ -1,1 +1,0 @@
-C:\Users\gonzalob\source\repos\MauiTest\Notificacion\Notificacion\Notificacion.csproj;x64
