@@ -16,6 +16,8 @@ build_property.RootNamespace = MauiApp1
 build_property.ProjectDir = C:\Users\gonzalob\source\repos\MauiTest\MauiApp1\MauiApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
 [C:/Users/gonzalob/source/repos/MauiTest/MauiApp1/MauiApp1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

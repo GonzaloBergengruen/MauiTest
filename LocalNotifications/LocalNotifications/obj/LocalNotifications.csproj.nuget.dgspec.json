@@ -69,13 +69,17 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.Maui.Essentials": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
@@ -88,6 +92,10 @@
             "Plugin.LocalNotification": {
               "target": "Package",
               "version": "[11.1.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -138,13 +146,17 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.Maui.Essentials": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
@@ -157,6 +169,10 @@
             "Plugin.LocalNotification": {
               "target": "Package",
               "version": "[11.1.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -195,13 +211,17 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.83, )"
+            },
+            "Microsoft.Maui.Essentials": {
               "target": "Package",
               "version": "[8.0.83, )"
             },
@@ -214,6 +234,10 @@
             "Plugin.LocalNotification": {
               "target": "Package",
               "version": "[11.1.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -253,7 +277,7 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
@@ -263,9 +287,17 @@
               "target": "Package",
               "version": "[8.0.83, )"
             },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.83, )"
+            },
             "Plugin.LocalNotification": {
               "target": "Package",
               "version": "[11.1.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

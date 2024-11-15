@@ -1,0 +1,1 @@
+C:\Users\gonzalob\source\repos\MauiTest\ClimaApi\ClimaApi\ClimaApi.csproj;x64
