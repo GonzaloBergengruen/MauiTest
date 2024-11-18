@@ -57,10 +57,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Platforms\Android\Resources\xml\network_security_config.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.83" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.83" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AndroidResource Include="Platforms\Android\Resources\xml\network_security_config.xml" />
 	</ItemGroup>
 
 </Project>

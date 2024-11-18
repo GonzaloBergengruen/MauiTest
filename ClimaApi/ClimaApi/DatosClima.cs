@@ -1,27 +1,27 @@
 ﻿namespace ClimaApi
 {
-    public class DatosClima
+    public class WeatherData
     {
-        public ClimaActual Actual {  get; set; }
-        public UbicacionInfo Ubicacion { get; set; }
+        public CurrentWeather Current { get; set; }
+        public LocationInfo Location { get; set; }
     }
 
-    public class ClimaActual
+    public class CurrentWeather
     {
-        public float Tempe_C { get; set; }
-        public Condicion Condicion { get; set; }
+        public float Temp_C { get; set; } // Temperatura en Celsius
+        public Condition Condition { get; set; }
     }
 
-    public class Condicion
+    public class Condition
     {
-        public string Texto { get; set; }
-        public string Icono { get; set; }
+        public string Text { get; set; } // Descripción del clima (e.g., "Soleado")
+        public string Icon { get; set; } // URL del icono del clima
     }
 
-    public class UbicacionInfo
+    public class LocationInfo
     {
-        public string Nombre { get; set; }
+        public string Name { get; set; } // Nombre de la ciudad
         public string Region { get; set; }
-        public string Departamento {  get; set; }
+        public string Country { get; set; }
     }
 }

@@ -14,15 +14,15 @@ namespace ClimaApi
             _httpClient = new HttpClient();
         }
 
-        public async Task<DatosClima> GetClimaAsync(String ciudad)
+        public async Task<WeatherData> GetClimaAsync(string ciudad)
         {
-            var url = $"http://api.weatherapi.com/v1/current.json?key={{_apiKey}}&q={{ciudad}}&aqi=no\"";
+            var url = $"http://api.weatherapi.com/v1/current.json?key={_apiKey}&q={ciudad}&aqi=no";
             var response = await _httpClient.GetAsync(url);
 
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                var datosClima = JsonConvert.DeserializeObject<DatosClima>(content);
+                var datosClima = JsonConvert.DeserializeObject<WeatherData>(content);
                 return datosClima;
             } else
             {
