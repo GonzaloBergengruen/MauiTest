@@ -5,10 +5,10 @@ namespace LocalNotificationv2
     public partial class MainPage : ContentPage
     {
         private readonly NotifacationService _servicioNotificacion;
-        public MainPage()
+        public MainPage(NotifacationService notifacationService)
         {
             InitializeComponent();
-            _servicioNotificacion = new NotifacationService();
+            _servicioNotificacion = notifacationService;
         }
 
         private void OnNotifyButtonServiceClicked(object sender, EventArgs e)

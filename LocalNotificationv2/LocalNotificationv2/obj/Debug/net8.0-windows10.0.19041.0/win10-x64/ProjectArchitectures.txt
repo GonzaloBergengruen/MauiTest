@@ -1,1 +1,1 @@
-D:\Nueva carpeta\LocalNotificationv2\LocalNotificationv2\LocalNotificationv2.csproj;x64
+D:\MauiTest\LocalNotificationv2\LocalNotificationv2\LocalNotificationv2.csproj;x64

@@ -14,7 +14,7 @@ namespace LocalNotificationv2
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                }).UseLocalNotification();
+                }).UseLocalNotification().Services.AddSingleton<NotifacationService>();
 
 #if DEBUG
             builder.Logging.AddDebug();
