@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClimaNotifications.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label x:Name="UbicacionTexto" Text="Ubicacion" FontSize="24"/>
+            <Label x:Name="TemperaturaTexto" Text="Temperatura" FontSize="24"/>
+            <Label x:Name="VientoTexto" Text="Viento" FontSize="18"/>
+            <Label x:Name="DescripcionTexto" Text="Descripcion" FontSize="18"/>
+            <Image x:Name="ClimaIcono" HeightRequest="100" WidthRequest="100"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

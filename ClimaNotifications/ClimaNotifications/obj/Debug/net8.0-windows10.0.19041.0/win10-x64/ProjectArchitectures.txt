@@ -1,0 +1,1 @@
+D:\MauiTest\ClimaNotifications\ClimaNotifications\ClimaNotifications.csproj;x64
