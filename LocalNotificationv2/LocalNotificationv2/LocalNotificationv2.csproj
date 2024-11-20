@@ -62,6 +62,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 		<PackageReference Include="Plugin.LocalNotification" Version="11.1.4" />
 		<PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+		<PackageReference Include="System.Private.Uri" Version="4.3.2" />
 		<PackageReference Include="System.Threading.Thread" Version="4.3.0" />
 	</ItemGroup>
 

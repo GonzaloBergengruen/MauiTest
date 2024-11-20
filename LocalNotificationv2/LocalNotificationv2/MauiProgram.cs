@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Plugin.LocalNotification;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
 
 namespace LocalNotificationv2
 {
@@ -14,7 +16,11 @@ namespace LocalNotificationv2
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                }).UseLocalNotification().Services.AddSingleton<NotifacationService>();
+                }).UseLocalNotification();
+
+            builder.Services.AddSingleton<NotifacationService>();
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<AppShell>();
 
 #if DEBUG
             builder.Logging.AddDebug();

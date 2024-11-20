@@ -1284,8 +1284,6 @@ D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\res\values\colors.xml
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\uploadflags.txt
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\resolvedassemblies.hash
-D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\arm64-v8a\System.Private.CoreLib.dll
-D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\cs\Microsoft.Maui.Controls.resources.dll
@@ -1524,8 +1522,6 @@ D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\WindowsBase.dll
-D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\x86\System.Private.CoreLib.dll
-D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\x86_64\System.Private.CoreLib.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\Xamarin.Android.Glide.Annotations.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 D:\MauiTest\LocalNotificationv2\LocalNotificationv2\obj\Debug\net8.0-android34.0\android\assets\Xamarin.Android.Glide.dll
