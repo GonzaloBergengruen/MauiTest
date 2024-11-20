@@ -1,1 +1,1 @@
-C:\Users\gonza\OneDrive\Escritorio\MauiTest\ClimaApi\ClimaApi\ClimaApi.csproj;x64
+D:\MauiTest\ClimaApi\ClimaApi\ClimaApi.csproj;x64

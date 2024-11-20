@@ -10,6 +10,7 @@
     {
         public float Temp_C { get; set; } // Temperatura en Celsius
         public Condition Condition { get; set; }
+        public decimal Wind_Kph { get; set; }
     }
 
     public class Condition
@@ -24,4 +25,5 @@
         public string Region { get; set; }
         public string Country { get; set; }
     }
+    
 }
