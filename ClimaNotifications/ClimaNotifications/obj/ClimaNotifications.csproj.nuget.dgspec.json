@@ -105,9 +105,25 @@
               "target": "Package",
               "version": "[1.9.3.1, )"
             },
+            "Xamarin.AndroidX.Core": {
+              "target": "Package",
+              "version": "[1.15.0.1, )"
+            },
             "Xamarin.AndroidX.Fragment.Ktx": {
               "target": "Package",
               "version": "[1.8.5.1, )"
+            },
+            "Xamarin.AndroidX.Work.Runtime": {
+              "target": "Package",
+              "version": "[2.10.0.1, )"
+            },
+            "Xamarin.AndroidX.Work.Work.Runtime.Ktx": {
+              "target": "Package",
+              "version": "[2.10.0.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.12.0.1, )"
             },
             "Xamarin.GooglePlayServices.Location": {
               "target": "Package",
