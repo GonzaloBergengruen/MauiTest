@@ -94,6 +94,7 @@ namespace ClimaNotifications
                     _notifacationService.SendNotification(texto);
                     texto = "";
                 }
+                _previousWeatherCondition = weather;
             }
             catch (Exception ex)
             {
