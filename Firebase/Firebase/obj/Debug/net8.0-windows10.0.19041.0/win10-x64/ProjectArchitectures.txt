@@ -1,0 +1,1 @@
+D:\MauiTest\Firebase\Firebase\Firebase.csproj;x64
