@@ -1,0 +1,6 @@
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.csproj.AssemblyReference.cache
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.GeneratedMSBuildEditorConfig.editorconfig
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.AssemblyInfoInputs.cache
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.AssemblyInfo.cs
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.csproj.CoreCompileInputs.cache
+D:\MauiTest\GraphicsView\GraphicsView\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GraphicsView.sourcelink.json
