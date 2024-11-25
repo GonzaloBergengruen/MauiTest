@@ -1,0 +1,12 @@
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.csproj.AssemblyReference.cache
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\MauiTest\MauiApp2\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.GeneratedMSBuildEditorConfig.editorconfig
