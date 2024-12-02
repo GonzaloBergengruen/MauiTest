@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using AndroidX.Work;
 
 namespace ClimaNotifications
 {
@@ -11,25 +10,6 @@ namespace ClimaNotifications
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Configurar restricciones opcionales
-            var constraints = new Constraints.Builder()
-                .SetRequiresBatteryNotLow(true) // No ejecutar si la batería está baja
-                .SetRequiredNetworkType(NetworkType.Connected) // Solo ejecutar si hay Internet
-                .Build();
-
-            // Crear la solicitud de trabajo periódica
-            var workRequest = PeriodicWorkRequest.Builder
-                .From<WeatherWorker>(TimeSpan.FromMinutes(15)) // Ejecutar cada 15 minutos
-                .SetConstraints(constraints)
-                .Build();
-
-            // Registrar el Worker
-            WorkManager.GetInstance(this).EnqueueUniquePeriodicWork(
-                "WeatherUpdateWorker", // Nombre único del Worker
-                ExistingPeriodicWorkPolicy.Keep, // Mantener si ya existe
-                workRequest
-            );
         }
     }
 }
