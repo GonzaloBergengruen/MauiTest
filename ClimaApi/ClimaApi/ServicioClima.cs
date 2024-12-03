@@ -14,6 +14,7 @@ namespace ClimaApi
             _httpClient = new HttpClient();
         }
 
+        //Obtiene los datos del clima
         public async Task<WeatherData> GetClimaAsync(string ciudad)
         {
             var url = $"http://api.weatherapi.com/v1/current.json?key={_apiKey}&q={ciudad}&aqi=no";

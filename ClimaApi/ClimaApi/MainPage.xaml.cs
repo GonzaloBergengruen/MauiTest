@@ -22,6 +22,7 @@ namespace ClimaApi
 
             try
             {
+                //Si todo sale bien muestra los datos actuales del clima
                 var clima = await _servicioClima.GetClimaAsync(Ciudad);
                 _previousWeatherCondition = clima;
                 TemperaturaTexto.Text = $"Temperatura: {clima.Current.Temp_C}°C";
@@ -36,6 +37,7 @@ namespace ClimaApi
             }
         }
 
+        //Cada 5 segundos intenta actualizar los datos del clima
         private void StartTimer()
         {
             timer = new System.Timers.Timer(5000);
@@ -48,13 +50,13 @@ namespace ClimaApi
         {
             try
             {
-                // Llama a tu servicio para obtener los datos
+                //Llama a tu servicio para obtener los datos
                 var weather = await _servicioClima.GetClimaAsync(Ciudad);
 
                 if (_previousWeatherCondition != weather)
                 {
                     _previousWeatherCondition = weather;
-                    // Actualiza la interfaz gráfica en el hilo principal
+                    //Actualiza la interfaz gráfica en el hilo principal
 
                     MainThread.BeginInvokeOnMainThread(() =>
                     {

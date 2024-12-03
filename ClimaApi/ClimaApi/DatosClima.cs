@@ -8,20 +8,20 @@
 
     public class CurrentWeather
     {
-        public float Temp_C { get; set; } // Temperatura en Celsius
+        public float Temp_C { get; set; } //Temperatura en Celsius
         public Condition Condition { get; set; }
-        public decimal Wind_Kph { get; set; }
+        public decimal Wind_Kph { get; set; } //Velocidad del viento en Kph
     }
 
     public class Condition
     {
-        public string Text { get; set; } // Descripción del clima (e.g., "Soleado")
-        public string Icon { get; set; } // URL del icono del clima
+        public string Text { get; set; } //Descripción del clima (e.g., "Soleado")
+        public string Icon { get; set; } //URL del icono del clima
     }
 
     public class LocationInfo
     {
-        public string Name { get; set; } // Nombre de la ciudad
+        public string Name { get; set; } //Nombre de la ciudad
         public string Region { get; set; }
         public string Country { get; set; }
     }
