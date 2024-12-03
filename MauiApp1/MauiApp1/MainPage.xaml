@@ -7,7 +7,7 @@
              Title="MyTasks">
 
     <!--Buscar login y como usar APIs-->
-    
+
     <Grid RowDefinitions="100, Auto, *" ColumnDefinitions=".75*, .25*"
           Padding="40" RowSpacing="10" ColumnSpacing="10">
         <!--Imagen y su fondo-->
@@ -31,7 +31,7 @@
                                 <!--Al deslizar el item este da la opcion de eliminar, probar en telefono-->
                                 <SwipeItem Text="Eliminar" BackgroundColor="Red"
                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=EliminarCommand}"
-                                           CommandParameter="{Binding .}"/> 
+                                           CommandParameter="{Binding .}"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">
@@ -47,7 +47,7 @@
                     </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-            
+
         </CollectionView>
 
     </Grid>

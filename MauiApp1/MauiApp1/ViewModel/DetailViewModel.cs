@@ -9,6 +9,7 @@ namespace MauiApp1.ViewModel
         [ObservableProperty]
         string text;
 
+        //Vuelve a la pagina principal
         [RelayCommand]
         async Task Volver()
         {

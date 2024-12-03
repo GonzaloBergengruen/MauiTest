@@ -1,7 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 
 namespace MauiApp1.ViewModel
 {
@@ -27,7 +26,7 @@ namespace MauiApp1.ViewModel
         {
             if (string.IsNullOrEmpty(Text))
                 return;
-            //Testear en casa
+            //Comprueba si hay conexion a internet
             if (Connectivity.NetworkAccess != NetworkAccess.Internet)
             {
                 await Shell.Current.DisplayAlert("Oh Uh!", "No hay Internet", "Ok");
@@ -38,6 +37,7 @@ namespace MauiApp1.ViewModel
             Text = string.Empty;
         }
 
+        //Elimina el item
         [RelayCommand]
         void Eliminar(string s)
         {
@@ -47,6 +47,7 @@ namespace MauiApp1.ViewModel
             }
         }
 
+        //Al tocar el item lleva a la pagina de detalles
         [RelayCommand]
         async Task Tap(string s)
         {

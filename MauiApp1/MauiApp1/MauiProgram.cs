@@ -17,7 +17,7 @@ namespace MauiApp1
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
             //Crea una copia y la mantiene
             builder.Services.AddSingleton<MainPage>();
