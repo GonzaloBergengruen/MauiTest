@@ -8,9 +8,10 @@ namespace LocalNotificationv2
         public MainPage(NotifacationService notifacationService)
         {
             InitializeComponent();
-            _servicioNotificacion = notifacationService;
+            _servicioNotificacion = notifacationService;    //Envia notificacion cada 5 segundos
         }
 
+        //Muestra notificacion al tocar el boton
         private void OnNotifyButtonServiceClicked(object sender, EventArgs e)
         {
             _servicioNotificacion.ShowNotification

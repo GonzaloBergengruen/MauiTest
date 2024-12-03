@@ -23,6 +23,7 @@ namespace LocalNotificationv2
             SendNotification(message);
         }
 
+        //Crea y envia la notificacion
         private void SendNotification(string message)
         {
             var notificacion = new NotificationRequest()
@@ -31,10 +32,10 @@ namespace LocalNotificationv2
                 Title = "Titulo",
                 Description = message
             };
-            LocalNotificationCenter.Current.Show(notificacion);
+            LocalNotificationCenter.Current.Show(notificacion); //Envia la notificacion
         }
 
-
+        //Crea y envia la notificacion
         public void ShowNotification(int id, string titulo, string descripcion, string returningData, int retrasoEnSegundos)
         {
             var notificacion = new NotificationRequest()
@@ -46,10 +47,10 @@ namespace LocalNotificationv2
                 ReturningData = returningData,
                 Schedule = new NotificationRequestSchedule
                 {
-                    NotifyTime = DateTime.Now.AddSeconds(retrasoEnSegundos)
+                    NotifyTime = DateTime.Now.AddSeconds(retrasoEnSegundos) //Muestra el mensaje x segundos despues de que se crea
                 }
             };
-            LocalNotificationCenter.Current.Show(notificacion);
+            LocalNotificationCenter.Current.Show(notificacion); //Envia la notificacion
         }
     }
 }
