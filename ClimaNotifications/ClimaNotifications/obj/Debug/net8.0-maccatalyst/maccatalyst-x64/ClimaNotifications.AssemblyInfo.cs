@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClimaNotifications")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9a62d4efefefde450d46e53e2fcf61e053320098")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fc30f556224ae1c166d374482403147e9c70a441")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClimaNotifications")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClimaNotifications")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

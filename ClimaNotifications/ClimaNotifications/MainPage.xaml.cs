@@ -10,6 +10,7 @@ namespace ClimaNotifications
         private readonly ServicioClima _servicioClima;
         private readonly string Ciudad = "Montevideo";
         private string texto;
+        private int count = 0;
 
         public MainPage(NotifacationService notifacationService)
         {
@@ -19,6 +20,7 @@ namespace ClimaNotifications
             StartTimer();
         }
 
+        //Obtiene los datos de la API al abrir la aplicacion por primera vez
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -32,6 +34,7 @@ namespace ClimaNotifications
                 DescripcionTexto.Text = $"Descripcion: {clima.Current.Condition.Text}";
                 UbicacionTexto.Text = $"Ubicacion: {clima.Location.Name}, {clima.Location.Country}";
                 ClimaIcono.Source = new UriImageSource { Uri = new Uri("https:" + clima.Current.Condition.Icon) };
+                Count.Text = count.ToString();
             }
             catch (Exception ex)
             {
@@ -39,6 +42,7 @@ namespace ClimaNotifications
             }
         }
 
+        //Timer de 5 segundos
         private void StartTimer()
         {
             timer = new System.Timers.Timer(5000);
@@ -89,11 +93,19 @@ namespace ClimaNotifications
                     }
                     texto += $"El clima cambio de {_previousWeatherCondition.Current.Condition.Text} a {weather.Current.Condition.Text}";
                 }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     _notifacationService.SendNotification(texto);
                     texto = "";
                 }
+
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    count++;
+                    Count.Text = count.ToString();
+                });
+
                 _previousWeatherCondition = weather;
             }
             catch (Exception ex)

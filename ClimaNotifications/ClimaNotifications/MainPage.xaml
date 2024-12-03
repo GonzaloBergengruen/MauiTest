@@ -12,6 +12,7 @@
             <Label x:Name="VientoTexto" Text="Viento" FontSize="18"/>
             <Label x:Name="DescripcionTexto" Text="Descripcion" FontSize="18"/>
             <Image x:Name="ClimaIcono" HeightRequest="100" WidthRequest="100"/>
+            <Label x:Name="Count" Text="Cuenta" FontSize="18"/>
         </VerticalStackLayout>
     </ScrollView>
 
