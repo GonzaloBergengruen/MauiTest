@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -422,7 +425,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -516,10 +519,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/android-arm": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -940,7 +952,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1028,10 +1040,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -1452,7 +1473,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1540,10 +1561,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/android-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -1964,7 +1994,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -2052,10 +2082,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/android-x86": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -2476,7 +2515,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -2564,10 +2603,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -2988,7 +3036,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -3076,10 +3124,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -3500,7 +3557,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -3588,10 +3645,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -4012,7 +4078,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -4101,9 +4167,18 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
+        }
       }
     },
     "net8.0-ios18.0": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -4524,7 +4599,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -4618,10 +4693,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/android-arm": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -5042,7 +5126,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -5130,10 +5214,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/android-arm64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -5554,7 +5647,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -5642,10 +5735,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/android-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -6066,7 +6168,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -6154,10 +6256,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/android-x86": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -6578,7 +6689,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -6666,10 +6777,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/iossimulator-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -7090,7 +7210,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -7178,10 +7298,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/maccatalyst-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -7602,7 +7731,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -7690,10 +7819,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-ios18.0/win10-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -8114,7 +8252,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -8202,10 +8340,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -8626,7 +8773,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -8720,10 +8867,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -9144,7 +9300,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -9232,10 +9388,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/android-arm64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -9656,7 +9821,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -9744,10 +9909,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -10168,7 +10342,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -10256,10 +10430,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/android-x86": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -10680,7 +10863,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -10768,10 +10951,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -11192,7 +11384,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11280,10 +11472,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/maccatalyst-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -11704,7 +11905,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11792,10 +11993,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -12216,7 +12426,7 @@
           "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "Microsoft.NET.ILLink.Tasks/8.0.13": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -12305,9 +12515,18 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
+        }
       }
     },
     "net8.0-windows10.0.19041": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -12817,9 +13036,18 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -13322,10 +13550,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -13828,10 +14065,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -14334,10 +14580,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -14840,10 +15095,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -15346,10 +15610,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -15852,10 +16125,19 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "jQuery/1.9.0": {
+        "type": "package"
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -16358,11 +16640,37 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "uikit/2.25.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       }
     }
   },
   "libraries": {
+    "jQuery/1.9.0": {
+      "sha512": "bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
+      "type": "package",
+      "path": "jquery/1.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.9.0-vsdoc.js",
+        "Content/Scripts/jquery-1.9.0.js",
+        "Content/Scripts/jquery-1.9.0.min.js",
+        "Content/Scripts/jquery-1.9.0.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-1.9.0.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.9.0.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Configuration/9.0.0": {
       "sha512": "YIMO9T3JL8MeEXgVozKt2v79hquo/EFtnY0vgxmLnUvk1Rei/halI7kOWZL2RBeV9FMGzgM9LZA8CVaNwFMaNA==",
       "type": "package",
@@ -17456,10 +17764,10 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.11": {
-      "sha512": "zk5lnZrYJgtuJG8L4v17Ej8rZ3PUcR2iweNV08BaO5LbYHIi2wNaVNcJoLxvqgQdnjLlKnCCfVGLDr6QHeAarQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.13": {
+      "sha512": "R19ZTaRiQAK+xo9ZwaHbF/1vb1wwR1Wn5+sqp9v8+CDjbdS8R6qftKdw0VSXWKm7VAMi7P+NCU4zxDzhEWcAwQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.11",
+      "path": "microsoft.net.illink.tasks/8.0.13",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -17473,7 +17781,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.13.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -17716,6 +18024,233 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "uikit/2.25.0": {
+      "sha512": "MmW3i2UwI/9mxCz3YO85GRisBYSEfQMqjQOn/wFu31HtUwdu7hiSCSiaN++Pib6tYJNwFm1dLhIiCXPhDwY3dw==",
+      "type": "package",
+      "path": "uikit/2.25.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/components/accordion.almost-flat.css",
+        "content/Content/components/accordion.almost-flat.min.css",
+        "content/Content/components/accordion.css",
+        "content/Content/components/accordion.gradient.css",
+        "content/Content/components/accordion.gradient.min.css",
+        "content/Content/components/accordion.min.css",
+        "content/Content/components/autocomplete.almost-flat.css",
+        "content/Content/components/autocomplete.almost-flat.min.css",
+        "content/Content/components/autocomplete.css",
+        "content/Content/components/autocomplete.gradient.css",
+        "content/Content/components/autocomplete.gradient.min.css",
+        "content/Content/components/autocomplete.min.css",
+        "content/Content/components/datepicker.almost-flat.css",
+        "content/Content/components/datepicker.almost-flat.min.css",
+        "content/Content/components/datepicker.css",
+        "content/Content/components/datepicker.gradient.css",
+        "content/Content/components/datepicker.gradient.min.css",
+        "content/Content/components/datepicker.min.css",
+        "content/Content/components/dotnav.almost-flat.css",
+        "content/Content/components/dotnav.almost-flat.min.css",
+        "content/Content/components/dotnav.css",
+        "content/Content/components/dotnav.gradient.css",
+        "content/Content/components/dotnav.gradient.min.css",
+        "content/Content/components/dotnav.min.css",
+        "content/Content/components/form-advanced.almost-flat.css",
+        "content/Content/components/form-advanced.almost-flat.min.css",
+        "content/Content/components/form-advanced.css",
+        "content/Content/components/form-advanced.gradient.css",
+        "content/Content/components/form-advanced.gradient.min.css",
+        "content/Content/components/form-advanced.min.css",
+        "content/Content/components/form-file.almost-flat.css",
+        "content/Content/components/form-file.almost-flat.min.css",
+        "content/Content/components/form-file.css",
+        "content/Content/components/form-file.gradient.css",
+        "content/Content/components/form-file.gradient.min.css",
+        "content/Content/components/form-file.min.css",
+        "content/Content/components/form-password.almost-flat.css",
+        "content/Content/components/form-password.almost-flat.min.css",
+        "content/Content/components/form-password.css",
+        "content/Content/components/form-password.gradient.css",
+        "content/Content/components/form-password.gradient.min.css",
+        "content/Content/components/form-password.min.css",
+        "content/Content/components/form-select.almost-flat.css",
+        "content/Content/components/form-select.almost-flat.min.css",
+        "content/Content/components/form-select.css",
+        "content/Content/components/form-select.gradient.css",
+        "content/Content/components/form-select.gradient.min.css",
+        "content/Content/components/form-select.min.css",
+        "content/Content/components/htmleditor.almost-flat.css",
+        "content/Content/components/htmleditor.almost-flat.min.css",
+        "content/Content/components/htmleditor.css",
+        "content/Content/components/htmleditor.gradient.css",
+        "content/Content/components/htmleditor.gradient.min.css",
+        "content/Content/components/htmleditor.min.css",
+        "content/Content/components/nestable.almost-flat.css",
+        "content/Content/components/nestable.almost-flat.min.css",
+        "content/Content/components/nestable.css",
+        "content/Content/components/nestable.gradient.css",
+        "content/Content/components/nestable.gradient.min.css",
+        "content/Content/components/nestable.min.css",
+        "content/Content/components/notify.almost-flat.css",
+        "content/Content/components/notify.almost-flat.min.css",
+        "content/Content/components/notify.css",
+        "content/Content/components/notify.gradient.css",
+        "content/Content/components/notify.gradient.min.css",
+        "content/Content/components/notify.min.css",
+        "content/Content/components/placeholder.almost-flat.css",
+        "content/Content/components/placeholder.almost-flat.min.css",
+        "content/Content/components/placeholder.css",
+        "content/Content/components/placeholder.gradient.css",
+        "content/Content/components/placeholder.gradient.min.css",
+        "content/Content/components/placeholder.min.css",
+        "content/Content/components/progress.almost-flat.css",
+        "content/Content/components/progress.almost-flat.min.css",
+        "content/Content/components/progress.css",
+        "content/Content/components/progress.gradient.css",
+        "content/Content/components/progress.gradient.min.css",
+        "content/Content/components/progress.min.css",
+        "content/Content/components/search.almost-flat.css",
+        "content/Content/components/search.almost-flat.min.css",
+        "content/Content/components/search.css",
+        "content/Content/components/search.gradient.css",
+        "content/Content/components/search.gradient.min.css",
+        "content/Content/components/search.min.css",
+        "content/Content/components/slidenav.almost-flat.css",
+        "content/Content/components/slidenav.almost-flat.min.css",
+        "content/Content/components/slidenav.css",
+        "content/Content/components/slidenav.gradient.css",
+        "content/Content/components/slidenav.gradient.min.css",
+        "content/Content/components/slidenav.min.css",
+        "content/Content/components/slider.almost-flat.css",
+        "content/Content/components/slider.almost-flat.min.css",
+        "content/Content/components/slider.css",
+        "content/Content/components/slider.gradient.css",
+        "content/Content/components/slider.gradient.min.css",
+        "content/Content/components/slider.min.css",
+        "content/Content/components/slideshow.almost-flat.css",
+        "content/Content/components/slideshow.almost-flat.min.css",
+        "content/Content/components/slideshow.css",
+        "content/Content/components/slideshow.gradient.css",
+        "content/Content/components/slideshow.gradient.min.css",
+        "content/Content/components/slideshow.min.css",
+        "content/Content/components/sortable.almost-flat.css",
+        "content/Content/components/sortable.almost-flat.min.css",
+        "content/Content/components/sortable.css",
+        "content/Content/components/sortable.gradient.css",
+        "content/Content/components/sortable.gradient.min.css",
+        "content/Content/components/sortable.min.css",
+        "content/Content/components/sticky.almost-flat.css",
+        "content/Content/components/sticky.almost-flat.min.css",
+        "content/Content/components/sticky.css",
+        "content/Content/components/sticky.gradient.css",
+        "content/Content/components/sticky.gradient.min.css",
+        "content/Content/components/sticky.min.css",
+        "content/Content/components/tooltip.almost-flat.css",
+        "content/Content/components/tooltip.almost-flat.min.css",
+        "content/Content/components/tooltip.css",
+        "content/Content/components/tooltip.gradient.css",
+        "content/Content/components/tooltip.gradient.min.css",
+        "content/Content/components/tooltip.min.css",
+        "content/Content/components/upload.almost-flat.css",
+        "content/Content/components/upload.almost-flat.min.css",
+        "content/Content/components/upload.css",
+        "content/Content/components/upload.gradient.css",
+        "content/Content/components/upload.gradient.min.css",
+        "content/Content/components/upload.min.css",
+        "content/Content/uikit.almost-flat.css",
+        "content/Content/uikit.almost-flat.min.css",
+        "content/Content/uikit.css",
+        "content/Content/uikit.gradient.css",
+        "content/Content/uikit.gradient.min.css",
+        "content/Content/uikit.min.css",
+        "content/fonts/FontAwesome.otf",
+        "content/fonts/fontawesome-webfont.ttf",
+        "content/fonts/fontawesome-webfont.woff",
+        "content/fonts/fontawesome-webfont.woff2",
+        "content/scripts/components/accordion.js",
+        "content/scripts/components/accordion.min.js",
+        "content/scripts/components/autocomplete.js",
+        "content/scripts/components/autocomplete.min.js",
+        "content/scripts/components/datepicker.js",
+        "content/scripts/components/datepicker.min.js",
+        "content/scripts/components/form-password.js",
+        "content/scripts/components/form-password.min.js",
+        "content/scripts/components/form-select.js",
+        "content/scripts/components/form-select.min.js",
+        "content/scripts/components/grid-parallax.js",
+        "content/scripts/components/grid-parallax.min.js",
+        "content/scripts/components/grid.js",
+        "content/scripts/components/grid.min.js",
+        "content/scripts/components/htmleditor.js",
+        "content/scripts/components/htmleditor.min.js",
+        "content/scripts/components/lightbox.js",
+        "content/scripts/components/lightbox.min.js",
+        "content/scripts/components/nestable.js",
+        "content/scripts/components/nestable.min.js",
+        "content/scripts/components/notify.js",
+        "content/scripts/components/notify.min.js",
+        "content/scripts/components/pagination.js",
+        "content/scripts/components/pagination.min.js",
+        "content/scripts/components/parallax.js",
+        "content/scripts/components/parallax.min.js",
+        "content/scripts/components/search.js",
+        "content/scripts/components/search.min.js",
+        "content/scripts/components/slider.js",
+        "content/scripts/components/slider.min.js",
+        "content/scripts/components/slideset.js",
+        "content/scripts/components/slideset.min.js",
+        "content/scripts/components/slideshow-fx.js",
+        "content/scripts/components/slideshow-fx.min.js",
+        "content/scripts/components/slideshow.js",
+        "content/scripts/components/slideshow.min.js",
+        "content/scripts/components/sortable.js",
+        "content/scripts/components/sortable.min.js",
+        "content/scripts/components/sticky.js",
+        "content/scripts/components/sticky.min.js",
+        "content/scripts/components/timepicker.js",
+        "content/scripts/components/timepicker.min.js",
+        "content/scripts/components/tooltip.js",
+        "content/scripts/components/tooltip.min.js",
+        "content/scripts/components/upload.js",
+        "content/scripts/components/upload.min.js",
+        "content/scripts/core/alert.js",
+        "content/scripts/core/alert.min.js",
+        "content/scripts/core/button.js",
+        "content/scripts/core/button.min.js",
+        "content/scripts/core/core.js",
+        "content/scripts/core/core.min.js",
+        "content/scripts/core/cover.js",
+        "content/scripts/core/cover.min.js",
+        "content/scripts/core/dropdown.js",
+        "content/scripts/core/dropdown.min.js",
+        "content/scripts/core/grid.js",
+        "content/scripts/core/grid.min.js",
+        "content/scripts/core/modal.js",
+        "content/scripts/core/modal.min.js",
+        "content/scripts/core/nav.js",
+        "content/scripts/core/nav.min.js",
+        "content/scripts/core/offcanvas.js",
+        "content/scripts/core/offcanvas.min.js",
+        "content/scripts/core/scrollspy.js",
+        "content/scripts/core/scrollspy.min.js",
+        "content/scripts/core/smooth-scroll.js",
+        "content/scripts/core/smooth-scroll.min.js",
+        "content/scripts/core/switcher.js",
+        "content/scripts/core/switcher.min.js",
+        "content/scripts/core/tab.js",
+        "content/scripts/core/tab.min.js",
+        "content/scripts/core/toggle.js",
+        "content/scripts/core/toggle.min.js",
+        "content/scripts/core/touch.js",
+        "content/scripts/core/touch.min.js",
+        "content/scripts/core/utility.js",
+        "content/scripts/core/utility.min.js",
+        "content/scripts/uikit.js",
+        "content/scripts/uikit.min.js",
+        "uikit.2.25.0.nupkg.sha512",
+        "uikit.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -17723,24 +18258,28 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.10",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.11"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "uikit >= 2.25.0"
     ],
     "net8.0-ios18.0": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.10",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.11"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "uikit >= 2.25.0"
     ],
     "net8.0-maccatalyst18.0": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.10",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.11"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "uikit >= 2.25.0"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.10",
-      "Microsoft.Maui.Controls.Compatibility >= 9.0.10"
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.10",
+      "uikit >= 2.25.0"
     ]
   },
   "packageFolders": {
@@ -17802,9 +18341,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-android34.0": {
@@ -17825,8 +18364,12 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.11, )",
+            "version": "[8.0.13, )",
             "autoReferenced": true
+          },
+          "uikit": {
+            "target": "Package",
+            "version": "[2.25.0, )"
           }
         },
         "imports": [
@@ -17843,23 +18386,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.34",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x86",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           }
         ],
         "frameworkReferences": {
@@ -17870,7 +18413,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
@@ -17890,8 +18433,12 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.11, )",
+            "version": "[8.0.13, )",
             "autoReferenced": true
+          },
+          "uikit": {
+            "target": "Package",
+            "version": "[2.25.0, )"
           }
         },
         "imports": [
@@ -17908,11 +18455,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
-            "version": "[18.0.8314, 18.0.8314]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-            "version": "[18.0.8314, 18.0.8314]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -17923,7 +18470,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
@@ -17943,8 +18490,12 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.11, )",
+            "version": "[8.0.13, )",
             "autoReferenced": true
+          },
+          "uikit": {
+            "target": "Package",
+            "version": "[2.25.0, )"
           }
         },
         "imports": [
@@ -17962,11 +18513,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-            "version": "[18.0.8314, 18.0.8314]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-            "version": "[18.0.8314, 18.0.8314]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -17977,7 +18528,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -17993,6 +18544,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[9.0.10, )"
+          },
+          "uikit": {
+            "target": "Package",
+            "version": "[2.25.0, )"
           }
         },
         "imports": [
@@ -18009,7 +18564,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.54, 10.0.19041.54]"
+            "version": "[10.0.19041.57, 10.0.19041.57]"
           }
         ],
         "frameworkReferences": {
@@ -18020,7 +18575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
